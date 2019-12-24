@@ -1,0 +1,93 @@
+<view class="zhuye">
+  <view class="sousuo">
+    <image class="headerimg" src="../../imgs/搜索.png"></image>
+    <input type="text" value="搜索..." />
+  </view>
+  <view class="fenlei">
+    <view class="fenup">
+      <span>分类排行</span>
+      <span class="watch">查看全部></span>
+    </view>
+    <view class="fencnt">
+      <scroll-view class="scroll-view" scroll-x="true" bindscroll="scroll" style="width: 100%">
+        <view class="fenpai" bindtap='ketiao' wx:for="{{fenhang}}" wx:key="*this">
+          <image src="{{item.img}}"></image>
+          <view class="zi">
+            <text>{{item.text}}</text>
+          </view>
+        </view>
+      </scroll-view>
+    </view>
+  </view>
+  <view class="fenlei">
+    <view class="fenup">
+      <span>作者排行</span>
+      <span class="watch">查看全部></span>
+    </view>
+    <view class="fencnt">
+      <scroll-view class="scroll-view" scroll-x="true" bindscroll="scroll" style="width: 100%">
+        <view class="fenpai" wx:for="{{zuohang}}" wx:key="*this">
+          <image src="{{item.img}}"></image>
+          <view class="zi">
+            <text>{{item.text}}</text>
+          </view>
+        </view>
+      </scroll-view>
+    </view>
+  </view>
+  <view class="fenlei">
+    <view class="fenup">
+      <span>新发布</span>
+      <span class="watch">查看全部></span>
+    </view>
+    <view class="newfabu">
+      <view class="fabu" wx:for="{{fabu}}" wx:key="*this">
+        <view class="fabuimg">
+          <image src="{{item.img}}"></image>
+        </view>
+
+        <view class="zi">
+          <text>{{item.text}}</text>
+        </view>
+        <view class="actor">
+          <text>{{item.actor}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="remen">
+    <span>热门搜索</span>
+    <view class="l">
+      <text class="one">2018排行榜</text>
+      <text class="two">职场热门</text>
+      <text class="san">都市言情</text>
+    </view>
+    <view class="down">
+      <text class="si ">哈弗大学经济管理类</text>
+      <text class="wu ">领导才能</text>
+    </view>
+  </view>
+  <view class="rexiao">
+    <view class="fenup">
+      <span>热销榜</span>
+      <span class="watch">查看全部></span>
+    </view>
+    <view class="recnt">
+      <scroll-view class="scroll-view3" scroll-x="true" bindscroll="scroll" style="width: 100%">
+        <view class="santi" wx:for="{{rexiao}}" wx:key="*this">
+          <view class="santitu">
+            <image src="{{item.img}}"></image>
+          </view>
+          <view class="you">
+            <span>{{item.title}}</span>
+            <image class="sl" src="../../imgs/省略号.png"></image>
+            <view class="zz">
+              <span>{{item.actor}}</span>
+            </view>
+            <view class="jieshao">{{item.content}}</view>
+          </view>
+        </view>
+      </scroll-view>
+    </view>
+  </view>
+</view>

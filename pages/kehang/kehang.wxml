@@ -1,0 +1,16 @@
+
+<view class="recnt">
+    <view class="santi" wx:for="{{rexiao}}" wx:key="*this">
+      <view class="santitu">
+        <image src="{{item.img}}"></image>
+      </view>
+      <view class="you">
+        <span class='title'>{{item.title}}</span>
+        <image class="sl" src="../../imgs/省略号.png"></image>
+        <view class="zz">
+          <span>{{item.actor}}</span>
+        </view>
+        <view class="jieshao">{{item.content}}</view>
+      </view>
+    </view>
+</view>

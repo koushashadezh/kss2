@@ -1,0 +1,41 @@
+/* pages/kehang/kehang.wxss */
+page {
+  height: 100%;
+  background-color: #21272e;
+}
+.santi {
+  margin: 20px 10px;
+  width: 330px;
+  height: 270rpx;
+  background-color: #2b323b;
+  border-radius: 10px;
+  display: inline-block;
+}
+.santitu>image {
+  float: left;
+  width: 170rpx;
+  height: 250rpx;
+  margin-left: 14px;
+  margin-top: -20px;
+  border-radius: 10px;
+}
+.sl {
+  width: 20px;
+  height: 20px;
+  float: right;
+}
+
+.zz>span, .jieshao {
+  color: #5d637c;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.zz {
+  margin: 10px 0px;
+  border-bottom: 2px solid #363d47;
+}
+.title{
+  color: white;
+}

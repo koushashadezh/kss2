@@ -1,0 +1,185 @@
+page {
+  height: 100%;
+  background-color: #21272e;
+}
+
+.zhuye {
+  width: 95%;
+  margin: 0 auto;
+}
+
+input {
+  height: 50px;
+  color: #9da3b4;
+}
+
+.headerimg {
+  width: 25px;
+  height: 25px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.sousuo {
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: flex;
+  background-color: #2d353d;
+  border-radius: 30px;
+}
+
+.fenlei {
+  margin-top: 20px;
+  border-bottom: 2px solid #2f343c;
+}
+
+.fenup {
+  display: flex;
+}
+
+span {
+  color: white;
+  flex: 1;
+}
+
+.watch {
+  color: #959bac;
+  margin-left: 360rpx;
+}
+
+.fencnt {
+  /* margin-bottom: 20px; */
+  margin-top: 20px;
+  /* display: flex; *//* justify-content: space-between; */
+}
+
+.fenpai>image {
+  width: 160rpx;
+  height: 160rpx;
+}
+
+.zi {
+  color: white;
+}
+.fabu{
+  float: left;
+  height: 200px;
+  width: 33.3%;
+}
+.fabuimg>image {
+  width: 90px;
+  height: 130px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.newfabu {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap:wrap;
+}
+
+.actor {
+  color: #959bac;
+}
+
+.scroll-view,.scroll-view3 {
+  white-space: nowrap;
+  text-align: center;
+  height: 280rpx;
+}
+
+.fenpai {
+  display: inline-block;
+  margin: 10px 10px;
+}
+
+.fabuimg, .zi.actor {
+  display: flex;
+}
+
+.newfabu, .remen {
+  border-bottom: 1px solid #2f343c;
+}
+
+.actor {
+  margin-bottom: 10px;
+}
+
+.l {
+  margin: 20px 20px;
+}
+
+.l>text, .down>text {
+  padding: 5px 5px;
+  border-radius: 20px;
+  margin: 10px 10px;
+}
+
+.down {
+  margin: 20px 20px;
+}
+
+.one {
+  color: #f54d82;
+  border: 1px solid #f54d82;
+}
+
+.two {
+  color: #59b080;
+  border: 1px solid #59b080;
+}
+
+.san {
+  color: #98434a;
+  border: 1px solid #98434a;
+}
+
+.si {
+  color: #9060e8;
+  border: 1px solid #9060e8;
+}
+
+.wu {
+  color: #d5ce56;
+  border: 1px solid #d5ce56;
+}
+
+.santi {
+  margin: 20px 10px;
+  width: 300px;
+  height: 250rpx;
+  background-color: #2b323b;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.santitu>image {
+  float: left;
+  width: 170rpx;
+  height: 250rpx;
+  margin-left: 14px;
+  margin-top: -15px;
+}
+
+.sl {
+  width: 20px;
+  height: 20px;
+  float: right;
+}
+
+.zz>span, .jieshao {
+  color: #5d637c;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.zz {
+  margin: 10px 0px;
+  border-bottom: 2px solid #363d47;
+}
+.rexiao{
+  margin-bottom: 20px;
+}

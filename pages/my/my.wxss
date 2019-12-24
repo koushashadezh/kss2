@@ -1,0 +1,68 @@
+/* pages/my/my.wxss */
+page {
+  height: 100%;
+  background-color: #21272e;
+}
+.wrap{
+  margin: 20px;
+}
+.header{
+  display: flex;
+  height: 150px;
+}
+.head>image{
+  width:150px;
+  height: 150px;
+}
+.share>image{
+  width: 20px;
+  height: 20px;
+}
+.name{
+  font-size: 20px;
+  color: white;
+}
+.address,p{
+  font-size: 15px;
+  color: #b5b7c5;
+}
+.share{
+  margin-left: 100px;
+  margin-top: 40px;
+  padding: 0 10px;
+  border: 1px solid #b5b7c5;
+  border-radius: 5px;
+}
+.you{
+  margin-top: 20px;
+}
+.zhong{
+  background-color: #2b323b;
+  border-radius: 10px;
+  display: flex;
+  text-align: center;
+}
+.kuai{
+  padding: 10px 0px;
+  flex: 1;
+  border-left: 1px solid #363c45;
+}
+.next{
+  width: 20px;
+  height: 20px;
+}
+.every{
+  color: #b5b7c5;
+  display: flex;
+  margin-top:20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #363c45;
+}
+
+.list{
+  flex: 3;
+}
+.listimage{
+  margin-left: 248px;
+  flex: 1;
+}

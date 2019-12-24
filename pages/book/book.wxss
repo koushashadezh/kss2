@@ -1,0 +1,5 @@
+/* pages/book/book.wxss */
+page {
+  height: 100%;
+  background-color: #21272e;
+}

@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/faxian/faxian",
+    "pages/book/book",
+    "pages/my/my",
+    "pages/kehang/kehang"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#21272e",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "backgroundColor": "#21272e",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "./imgs/Home.png",
+        "selectedIconPath": "./imgs/主页.png",
+        "text": ""
+      },
+      {
+        "pagePath": "pages/faxian/faxian",
+        "iconPath": "./imgs/Shap.png",
+        "selectedIconPath": "./imgs/Shape.png",
+        "text": ""
+      },
+      {
+        "pagePath": "pages/book/book",
+        "iconPath": "./imgs/book.png",
+        "selectedIconPath": "./imgs/books.png",
+        "text": ""
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "./imgs/my.png",
+        "selectedIconPath": "./imgs/mine.png",
+        "text": ""
+      }
+    ]
+  }
+}
