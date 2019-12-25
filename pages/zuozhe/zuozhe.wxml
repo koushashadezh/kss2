@@ -1,0 +1,90 @@
+<!--pages/zuozhe/zuozhe.wxml-->
+<view class="wrap">
+  <view class="up">
+    <view class="upkuai">
+      <view class="hguan">
+        <image src="../../imgs/皇冠1.png "></image>
+      </view>
+      <view class="headimg">
+        <image src="../../imgs/头像.png "></image>
+      </view>
+      <view class="shuzi1">
+        <image src='../../imgs/数字2.png'></image>
+      </view>
+      <view class="zi1" style="color:#f44380">
+        <text>余秋雨</text>
+      </view>
+      <view class="zi2" style="color:#a2a8ba">
+        <text>5869 粉丝</text>
+      </view>
+    </view>
+    <view class="upkuai">
+      <view class="hguan2">
+        <image src="../../imgs/皇冠2.png "></image>
+      </view>
+      <view class="headimg2">
+        <image src="../../imgs/头像.png "></image>
+      </view>
+      <view class="shuzi1">
+        <image src='../../imgs/数字1.png'></image>
+      </view>
+      <view class="zi1" style="color:#fdaf01">
+        <text>刘慈心</text>
+      </view>
+      <view class="zi2" style="color:#a2a8ba">
+        <text>6598 粉丝</text>
+      </view>
+    </view>
+    <view class="upkuai">
+      <view class="hguan">
+        <image src="../../imgs/皇冠3.png "></image>
+      </view>
+      <view class="headimg">
+        <image src="../../imgs/头像.png "></image>
+      </view>
+      <view class="shuzi1">
+        <image src='../../imgs/数字3.png'></image>
+      </view>
+      <view class="zi1" style="color:#f44380">
+        <text>田小花</text>
+      </view>
+      <view class="zi2" style="color:#a2a8ba">
+        <text>4526 粉丝</text>
+      </view>
+    </view>
+  </view>
+  <view class="reactor">
+    <view class="fenup">
+      <span>热门作者</span>
+      <span class="watch">查看全部></span>
+    </view>
+    <view class="fencnt">
+      <scroll-view class="scroll-view" scroll-x="true" bindscroll="scroll" style="width: 100%">
+        <view class="fenpai" wx:for="{{reactor}}" wx:key="*this">
+          <image src="{{item.img}}"></image>
+          <view class="zi">
+            <text>{{item.text}}</text>
+          </view>
+          <view class="guanzhu"><text>{{item.guanzhu}}</text></view>
+        </view>
+      </scroll-view>
+    </view>
+  </view>
+    <view class="reactor">
+    <view class="fenup">
+      <span>新晋作者</span>
+      <span class="watch">查看全部></span>
+    </view>
+    <view class="fencnt">
+      <scroll-view class="scroll-view" scroll-x="true" bindscroll="scroll" style="width: 100%">
+        <view class="fenpai" wx:for="{{newactor}}" wx:key="*this">
+          <image src="{{item.img}}"></image>
+          <view class="zi">
+            <text>{{item.text}}</text>
+          </view>
+          <view class="guanzhu"><text>{{item.guanzhu}}</text></view>
+        </view>
+      </scroll-view>
+    </view>
+  </view>
+</view>

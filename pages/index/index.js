@@ -101,4 +101,9 @@ Page({
         url: "../../pages/kehang/kehang",
       })
     },
+  zuotiao: function () {
+    wx.navigateTo({
+      url: "../../pages/zuozhe/zuozhe",
+    })
+  },
 })

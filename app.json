@@ -4,7 +4,9 @@
     "pages/faxian/faxian",
     "pages/book/book",
     "pages/my/my",
-    "pages/kehang/kehang"
+    "pages/kehang/kehang",
+    "pages/zuozhe/zuozhe",
+    "pages/faer/faer"
   ],
   "window": {
     "backgroundTextStyle": "light",

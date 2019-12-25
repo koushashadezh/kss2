@@ -1,0 +1,22 @@
+<!--pages/faer/faer.wxml-->
+<view class="wrap">
+  <view class="up">
+    <view></view>
+    <image class="one" src="../../imgs/四宫格.png" bindtap="shang"></image>
+    <image class="next" src="../../imgs/小方块.png"></image>
+  </view>
+  <view class="newfabu">
+    <view class="fabu" wx:for="{{fabu}}" wx:key="*this">
+      <view class="fabuimg">
+        <image src="{{item.img}}"></image>
+      </view>
+
+      <view class="zi">
+        <text>{{item.text}}</text>
+      </view>
+      <view class="actor">
+        <text>{{item.actor}}</text>
+      </view>
+    </view>
+  </view>
+</view>

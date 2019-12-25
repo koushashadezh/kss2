@@ -1,10 +1,22 @@
-/* pages/book/book.wxss */
+/* pages/faer/faer.wxss */
 page {
   height: 100%;
   background-color: #21272e;
 }
 .wrap{
   margin: 40rpx;
+}
+.up{
+  display: flex;
+}
+.one{
+  width: 40rpx;
+  height: 40rpx;
+}
+.next{
+  width: 40rpx;
+  height: 40rpx;
+  margin-left: 40rpx;
 }
 .newfabu {
   width: 600rpx;
@@ -18,16 +30,11 @@ page {
   width: 50%;
 }
 .fabuimg>image {
-  width:180rpx;
-  height: 300rpx;
+  width: 390rpx;
+  height: 440rpx;
   margin-top: 20rpx;
   margin-right: 20rpx;
   border-radius: 20rpx;
-}
-.fabu{
-  float: left;
-  height: 400rpx;
-  width: 33.3%;
 }
 .fabuimg, .zi {
   display: flex;
@@ -35,25 +42,5 @@ page {
 .zi{
   margin-top: 20rpx;
   color: white;
-  font-size: 28rpx;
-}
-.actor{
-  font-size: 20rpx;
-  color: #5d637c;
-}
-.fenlei {
-  height: 460rpx;
-  margin-top: 40rpx;
-  margin-bottom: 20rpx;
-}
-.fenup {
-  display: flex;
-}
-span {
-  color: white;
-  flex: 1;
-}
-.watch {
-  color: #959bac;
-  margin-left: 360rpx;
+  margin-left: 40rpx;
 }

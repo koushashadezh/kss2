@@ -1,15 +1,27 @@
-//logs.js
-const util = require('../../utils/util.js')
+// pages/faer/faer.js
+Component({
+  /**
+   * 组件的属性列表
+   */
+  properties: {
 
-Page({
-  data: {
-    logs: []
   },
-  onLoad: function () {
-    this.setData({
-      logs: (wx.getStorageSync('logs') || []).map(log => {
-        return util.formatTime(new Date(log))
+
+  /**
+   * 组件的初始数据
+   */
+  data: {
+
+  },
+
+  /**
+   * 组件的方法列表
+   */
+  methods: {
+    next: function () {
+      wx.navigateTo({
+        url: "../../pages/faer/faer",
       })
-    })
+    },
   }
 })

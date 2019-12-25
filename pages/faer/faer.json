@@ -1,5 +1,5 @@
 {
-  "navigationBarTitleText": "查看启动日志",
+  "component": true,
   "usingComponents": {},
   "navigationBarTitleText": "探索",
   "navigationBarTextStyle": "white"

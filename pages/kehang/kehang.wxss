@@ -4,24 +4,24 @@ page {
   background-color: #21272e;
 }
 .santi {
-  margin: 20px 10px;
-  width: 330px;
+  margin: 40rpx 20rpx;
+  width: 660rpx;
   height: 270rpx;
   background-color: #2b323b;
-  border-radius: 10px;
+  border-radius: 20rpx;
   display: inline-block;
 }
 .santitu>image {
   float: left;
   width: 170rpx;
   height: 250rpx;
-  margin-left: 14px;
-  margin-top: -20px;
-  border-radius: 10px;
+  margin-left: 28rpx;
+  margin-top: -40rpx;
+  border-radius: 20rpx;
 }
 .sl {
-  width: 20px;
-  height: 20px;
+  width: 40rpx;
+  height: 40rpx;
   float: right;
 }
 
@@ -33,8 +33,8 @@ page {
 }
 
 .zz {
-  margin: 10px 0px;
-  border-bottom: 2px solid #363d47;
+  margin: 20rpx 0rpx;
+  border-bottom: 4rpx solid #363d47;
 }
 .title{
   color: white;

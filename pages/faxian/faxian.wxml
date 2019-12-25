@@ -1,4 +1,28 @@
 <!--logs.wxml-->
-<view class="container log-list">
-  
+<view class="wrap">
+  <view class="up">
+    <view></view>
+    <image class="one" src="../../imgs/四宫格.png"></image>
+    <image class="next" src="../../imgs/小方块.png" bindtap="next" ></image>
+  </view>
+  <view class="zhong">
+    <view class="zhongimg">
+      <image src="../../imgs/paihang9.png"></image>
+    </view>
+    <view class="name">
+      <text>三体:死神永生</text>
+    </view>
+    <view class="actor">
+      <text>刘慈心</text>
+    </view>
+  </view>
+  <view class="user">
+    <view class="userimg">
+      <image src="../../imgs/头像.png"></image>
+      <image src="../../imgs/头像.png"></image>
+      <image src="../../imgs/头像.png"></image>
+      <image src="../../imgs/头像.png"></image>
+    </view>
+    <view class="yuedu"><text>457 人已阅读</text></view>
+  </view>
 </view>

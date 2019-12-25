@@ -1,2 +1,43 @@
 <!--pages/book/book.wxml-->
-<text>pages/book/book.wxml</text>
+<view class="wrap">
+  <view class="fenlei">
+    <view class="fenup">
+      <span>正在阅读</span>
+      <span class="watch">查看全部></span>
+    </view>
+    <view class="newfabu">
+      <view class="fabu" wx:for="{{fabu}}" wx:key="*this">
+        <view class="fabuimg">
+          <image src="{{item.img}}"></image>
+        </view>
+
+        <view class="zi">
+          <text>{{item.text}}</text>
+        </view>
+        <view class="actor">
+          <text>{{item.actor}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="fenlei">
+    <view class="fenup">
+      <span>未读</span>
+      <span class="watch">查看全部></span>
+    </view>
+    <view class="newfabu">
+      <view class="fabu" wx:for="{{fabuer}}" wx:key="*this">
+        <view class="fabuimg">
+          <image src="{{item.img}}"></image>
+        </view>
+
+        <view class="zi">
+          <text>{{item.text}}</text>
+        </view>
+        <view class="actor">
+          <text>{{item.actor}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
