@@ -1,9 +1,9 @@
-<!--logs.wxml-->
+<!-- logs.wxml -->
 <view class="wrap">
   <view class="up">
     <view></view>
-    <image class="one" src="../../imgs/四宫格.png"></image>
-    <image class="next" src="../../imgs/小方块.png" bindtap="next" ></image>
+    <image class="one" src="../../imgs/sige.png"></image>
+    <image class="next" src="../../imgs/fangkuai.png" bindtap="next"></image>
   </view>
   <view class="zhong">
     <view class="zhongimg">
@@ -15,14 +15,17 @@
     <view class="actor">
       <text>刘慈心</text>
     </view>
+    
   </view>
   <view class="user">
     <view class="userimg">
-      <image src="../../imgs/头像.png"></image>
-      <image src="../../imgs/头像.png"></image>
-      <image src="../../imgs/头像.png"></image>
-      <image src="../../imgs/头像.png"></image>
+      <image src="../../imgs/kenan.png"></image>
+      <image src="../../imgs/kenan.png"></image>
+      <image src="../../imgs/kenan.png"></image>
+      <image src="../../imgs/kenan.png"></image>
     </view>
-    <view class="yuedu"><text>457 人已阅读</text></view>
+    <view class="yuedu">
+      <text>457 人已阅读</text>
+    </view>
   </view>
 </view>

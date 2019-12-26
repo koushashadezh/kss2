@@ -1,0 +1,13 @@
+<view class="wrap">
+  <view class="up">
+    <view class="zi">
+      <text>我的余额(元)</text>
+    </view>
+    <view class="money">
+      <text>1375.00</text>
+    </view>
+  </view>
+  <view class="end" bindtap="chongzhi">
+    <text>充值</text>
+  </view>
+</view>

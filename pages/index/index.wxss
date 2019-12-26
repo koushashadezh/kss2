@@ -52,7 +52,7 @@ span {
   margin-top: 40rpx;
 }
 
-.fenpai>image {
+.fenpai > image {
   width: 160rpx;
   height: 160rpx;
 }
@@ -60,12 +60,14 @@ span {
 .zi {
   color: white;
 }
-.fabu{
+
+.fabu {
   float: left;
   height: 400rpx;
   width: 33.3%;
 }
-.fabuimg>image {
+
+.fabuimg > image {
   width: 180rpx;
   height: 260rpx;
   margin-right: 20rpx;
@@ -75,29 +77,38 @@ span {
 .newfabu {
   margin-top: 40rpx;
   display: flex;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
 }
 
 .actor {
   color: #959bac;
 }
-
-.scroll-view,.scroll-view3 {
+.recnt{
+  
+}
+.scroll-view
+ {
   white-space: nowrap;
-  text-align: center;
+  /* width:400rpx; */
   height: 280rpx;
 }
-
+.scroll-view3{
+ width: 100% !important;
+ white-space: nowrap;
+ height: 280rpx;
+}
 .fenpai {
   display: inline-block;
   margin: 20rpx 20rpx;
 }
 
-.fabuimg, .zi.actor {
+.fabuimg,
+.zi.actor {
   display: flex;
 }
 
-.newfabu, .remen {
+.newfabu,
+.remen {
   border-bottom: 2rpx solid #2f343c;
 }
 
@@ -109,7 +120,8 @@ span {
   margin: 40rpx 40rpx;
 }
 
-.l>text, .down>text {
+.l > text,
+.down > text {
   padding: 10rpx 10rpx;
   border-radius: 40rpx;
   margin: 20rpx 20rpx;
@@ -151,33 +163,78 @@ span {
   background-color: #2b323b;
   border-radius: 20rpx;
   display: inline-block;
+ 
 }
 
-.santitu>image {
-  float: left;
+.santitu-name {
+  display: flex;
+  width: 370rpx;
+  justify-content: flex-end;
+}
+.santitu-r{
+  float: right;
+ width: 400rpx;
+}
+.santitu-name-r {
+  width: 40rpx;
+  height: 40rpx;
+ 
+  margin-left: auto;
+}
+
+.santitu-name-r image {
+  width: 100%;
+  height: 100%;
+}
+.santitu{
+  width: 170rpx;
+  height: 250rpx;
+  display: inline-block;
+}
+.santitu-wrap{
   width: 170rpx;
   height: 250rpx;
   margin-left: 37rpx;
   margin-top: -30rpx;
 }
-
-.sl {
-  width: 40rpx;
-  height: 40rpx;
-  float: right;
+.santitu-wrap > image {
+  width: 100%;
+  height: 100%;
+  
 }
 
-.zz>span, .jieshao {
+.santitu-r {
+  /* width: 380rpx; */
+  display: flex;
+  flex-direction: column;
+}
+.santitu-name-l {
+  color: white;
+}
+.santitu-actor {
+  text-align: left;
   color: #5d637c;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.zz {
-  margin: 20rpx 0rpx;
   border-bottom: 4rpx solid #363d47;
 }
-.rexiao{
+
+.santitu-jieshao {
+  white-space: normal;
+  color: #5d637c;
+  overflow: hidden;
+  display: -webkit-box; 
+  -webkit-box-orient: vertical; 
+  -webkit-line-clamp: 3; 
+  overflow: hidden; 
+  text-overflow: ellipsis; 
+
+
+  /* text-overflow: ellipsis; */
+  /* white-space: nowrap; */
+}
+.santitu-jieshao text{
+  text-align: left;
+  width: 380rpx;
+}
+.rexiao {
   margin-bottom: 40rpx;
 }

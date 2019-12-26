@@ -2,8 +2,8 @@
 <view class="wrap">
   <view class="up">
     <view></view>
-    <image class="one" src="../../imgs/四宫格.png" bindtap="shang"></image>
-    <image class="next" src="../../imgs/小方块.png"></image>
+    <image class="one" src="../../imgs/sige.png" bindtap="shang"></image>
+    <image class="next" src="../../imgs/fangkuai.png"></image>
   </view>
   <view class="newfabu">
     <view class="fabu" wx:for="{{fabu}}" wx:key="*this">

@@ -1,0 +1,43 @@
+/* pages/shezhi/shezhi.wxss */
+page {
+  height: 100%;
+  background-color: #21272e;
+}
+.wrap{
+  margin: 40rpx;
+}
+.every{
+  color: #b5b7c5;
+  display: flex;
+  margin-top:40rpx;
+  padding-bottom: 40rpx;
+  border-bottom: 2rpx solid #363c45;
+}
+.list{
+  flex: 3;
+}
+.list2{
+  flex: 2;
+}
+.listimage{
+  margin-left: 496rpx;
+  flex: 1;
+}
+.list2image,.list1image{
+  margin-left: 387rpx;
+  flex: 1;
+}
+.next{
+  width: 40rpx;
+  height: 40rpx;
+}
+.end{
+  text-align: center;
+  color: #b5b7c5;
+  font-size: 50rpx;
+  background-color:#2e363f;
+  height: 100rpx; 
+  line-height: 100rpx;
+  margin-top: 286rpx;
+
+}

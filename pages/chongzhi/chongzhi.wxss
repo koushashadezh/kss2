@@ -1,0 +1,58 @@
+/* pages/chongzhi/chongzhi.wxss */
+page {
+  height: 100%;
+  background-color: #21272e;
+}
+.wrap{
+  min-height: 100%;
+  position: relative;
+}
+.up{
+  margin: 40rpx;
+  background-color: #2b323b;
+  border-radius: 10px;
+  height: 250rpx;
+}
+.zi{
+  color: #75808d;
+  margin-left: 40rpx;
+  padding-top: 40rpx;
+}
+.money{
+  /* font-size: 100rpx; */
+  margin-left: 40rpx;
+  color: white;
+  border-bottom: 4rpx solid #434e5c;
+  display: flex;
+}
+.moneyimg{
+  flex: 0.5;
+}
+.shuru{
+  flex: 3;
+}
+.end{
+  text-align: center;
+  color: white;
+  font-size: 50rpx;
+  background-color:#2e363f;
+  height: 100rpx; 
+  width: 100%;
+  line-height: 100rpx;
+  position: absolute;
+  bottom: 62rpx;
+
+}
+.moneyimg{
+  width: 100rpx;
+  height: 93rpx;
+}
+.moneyimg image{
+  width: 100%;
+  height: 100%;
+}
+input{
+  height: 60rpx;
+  font-size: 20px;
+  margin-top: 20rpx;
+}

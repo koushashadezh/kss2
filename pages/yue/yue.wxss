@@ -1,0 +1,37 @@
+/* pages/yue/yue.wxss */
+page {
+  height: 100%;
+  background-color: #21272e;
+}
+.wrap{
+  min-height: 100%;
+  position: relative;
+}
+.up{
+  margin: 40rpx;
+  background-color: #2b323b;
+  border-radius: 10px;
+  height: 250rpx;
+}
+.zi{
+  color: #75808d;
+  margin-left: 40rpx;
+  padding-top: 40rpx;
+}
+.money{
+  font-size: 100rpx;
+  margin-left: 40rpx;
+  color: white;
+}
+.end{
+  text-align: center;
+  color: #b5b7c5;
+  font-size: 50rpx;
+  background-color:#fb6894;
+  height: 100rpx; 
+  width: 100%;
+  line-height: 100rpx;
+  position: absolute;
+  bottom: 62rpx;
+
+}

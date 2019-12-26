@@ -3,13 +3,13 @@
   <view class="up">
     <view class="upkuai">
       <view class="hguan">
-        <image src="../../imgs/皇冠1.png "></image>
+        <image src="../../imgs/huangguan1.png "></image>
       </view>
       <view class="headimg">
-        <image src="../../imgs/头像.png "></image>
+        <image src="../../imgs/kenan.png "></image>
       </view>
       <view class="shuzi1">
-        <image src='../../imgs/数字2.png'></image>
+        <image src='../../imgs/shuzi2.png'></image>
       </view>
       <view class="zi1" style="color:#f44380">
         <text>余秋雨</text>
@@ -20,13 +20,13 @@
     </view>
     <view class="upkuai">
       <view class="hguan2">
-        <image src="../../imgs/皇冠2.png "></image>
+        <image src="../../imgs/huangguan2.png "></image>
       </view>
       <view class="headimg2">
-        <image src="../../imgs/头像.png "></image>
+        <image src="../../imgs/kenan.png "></image>
       </view>
-      <view class="shuzi1">
-        <image src='../../imgs/数字1.png'></image>
+      <view class="shuzi1 first">
+        <image src='../../imgs/shuzi1.png'></image>
       </view>
       <view class="zi1" style="color:#fdaf01">
         <text>刘慈心</text>
@@ -37,13 +37,13 @@
     </view>
     <view class="upkuai">
       <view class="hguan">
-        <image src="../../imgs/皇冠3.png "></image>
+        <image src="../../imgs/huangguan3.png "></image>
       </view>
       <view class="headimg">
-        <image src="../../imgs/头像.png "></image>
+        <image src="../../imgs/kenan.png "></image>
       </view>
       <view class="shuzi1">
-        <image src='../../imgs/数字3.png'></image>
+        <image src='../../imgs/shuzi3.png'></image>
       </view>
       <view class="zi1" style="color:#f44380">
         <text>田小花</text>

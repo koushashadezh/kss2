@@ -1,28 +1,18 @@
-// pages/my/my.js
+// pages/shezhi/shezhi.js
 Page({
-
+  switch1Change: function(e) {
+    console.log('switch1 发生 change 事件，携带值为', e.detail.value)
+  },
+  // switch2Change: function(e) {
+  //   console.log('switch2 发生 change 事件，携带值为', e.detail.value)
+  // },
   /**
    * 页面的初始数据
    */
   data: {
-    zhong: [{
-        'shuzi': '1286',
-        'text': '关注'
-      },
-      {
-        'shuzi': '3368',
-        'text': '粉丝'
-      }, {
-        'shuzi': '6673',
-        'text': '喜欢'
-      }
-    ],
+
   },
-  shezhi:function(){
-    wx.navigateTo({
-      url: "../../pages/shezhi/shezhi",
-    })
-  },
+
   /**
    * 生命周期函数--监听页面加载
    */
@@ -77,5 +67,10 @@ Page({
    */
   onShareAppMessage: function() {
 
-  }
+  },
+  yue: function () {
+    wx.navigateTo({
+      url: "../../pages/yue/yue",
+    })
+  },
 })

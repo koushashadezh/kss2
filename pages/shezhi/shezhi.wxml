@@ -1,0 +1,58 @@
+<view class="wrap">
+  <view class="down">
+    <view class="every" bindtap="yue">
+      <view class="list">
+        <text class="listfirst">查看账户</text>
+      </view>
+      <view class="listimage">
+        <image class="next" src="../../imgs/dayu.png"></image>
+      </view>
+    </view>
+    <view class="every">
+      <view class="list">
+        <text class="listfirst">个人资料</text>
+      </view>
+      <view class="listimage">
+        <image class="next" src="../../imgs/dayu.png"></image>
+      </view>
+    </view>
+    <view class="every">
+      <view class="list">
+        <text class="listfirst">消息提醒</text>
+      </view>
+      <view class="list1image">
+        <view class="body-view">
+          <switch checked bindchange="switch1Change" />
+        </view>
+      </view>
+    </view>
+    <view class="every">
+      <view class="list2">
+        <text class="listfirst">清理缓存</text>
+      </view>
+      <view class="list2image">
+        <text class="huan">128MB</text>
+        <image class="next" src="../../imgs/dayu.png"></image>
+      </view>
+    </view>
+    <view class="every">
+      <view class="list">
+        <text class="listfirst">帮助中心</text>
+      </view>
+      <view class="listimage">
+        <image class="next" src="../../imgs/dayu.png"></image>
+      </view>
+    </view>
+    <view class="every">
+      <view class="list">
+        <text class="listfirst">关于我们</text>
+      </view>
+      <view class="listimage">
+        <image class="next" src="../../imgs/dayu.png"></image>
+      </view>
+    </view>
+  </view>
+  <view class="end">
+    <text>退出登录</text>
+  </view>
+</view>

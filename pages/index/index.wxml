@@ -1,6 +1,6 @@
 <view class="zhuye">
   <view class="sousuo">
-    <image class="headerimg" src="../../imgs/搜索.png"></image>
+    <image class="headerimg" src="../../imgs/sousuo.png"></image>
     <input type="text" value="搜索..." />
   </view>
   <view class="fenlei">
@@ -9,11 +9,11 @@
       <span class="watch">查看全部></span>
     </view>
     <view class="fencnt">
-      <scroll-view class="scroll-view" scroll-x="true" bindscroll="scroll" style="width: 100%">
+      <scroll-view class="scroll-view"  scroll-x="true" bindscroll="scroll" style="width: 100%" >
         <view class="fenpai" bindtap='ketiao' wx:for="{{fenhang}}" wx:key="*this">
-          <image src="{{item.img}}"></image>
+          <image src="{{item.touxiang}}"></image>
           <view class="zi">
-            <text>{{item.text}}</text>
+            <text>{{item.type}}</text>
           </view>
         </view>
       </scroll-view>
@@ -73,21 +73,30 @@
       <span class="watch">查看全部></span>
     </view>
     <view class="recnt">
-      <scroll-view class="scroll-view3" scroll-x="true" bindscroll="scroll" style="width: 100%">
-        <view class="santi" wx:for="{{rexiao}}" wx:key="*this">
+       <scroll-view class="scroll-view3" scroll-x="true" bindscroll="scroll" style="width:100%">
+         <view class="santi" wx:for="{{rexiao}}" wx:key="*this">
           <view class="santitu">
-            <image src="{{item.img}}"></image>
-          </view>
-          <view class="you">
-            <span>{{item.title}}</span>
-            <image class="sl" src="../../imgs/省略号.png"></image>
-            <view class="zz">
-              <span>{{item.actor}}</span>
+            <view class="santitu-wrap">
+            <image src="{{item.touxiang}}"></image>
             </view>
-            <view class="jieshao">{{item.content}}</view>
           </view>
+          <view class="santitu-r">
+            <view class="santitu-name">
+              <view class="santitu-name-l">{{item.bookname}}</view>
+              <view class="santitu-name-r">
+                <image src="../../imgs/shenglue.png" />
+              </view>
+            </view>
+            <view class="santitu-actor">{{item.writername}}</view>
+            <view class="santitu-jieshao">
+              {{item.about}}
+              </view>
+
+          </view>
+
         </view>
       </scroll-view>
+
     </view>
   </view>
 </view>

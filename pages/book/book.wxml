@@ -6,7 +6,7 @@
       <span class="watch">查看全部></span>
     </view>
     <view class="newfabu">
-      <view class="fabu" wx:for="{{fabu}}" wx:key="*this">
+      <view class="fabu" wx:for="{{fabu}}" wx:key="*this" bindtap="jieshao">
         <view class="fabuimg">
           <image src="{{item.img}}"></image>
         </view>

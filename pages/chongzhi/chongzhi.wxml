@@ -1,0 +1,19 @@
+<view class="wrap">
+  <view class="up">
+    <view class="zi">
+      <text>充值余额(元)</text>
+    </view>
+    <view class="money">
+      <view class="moneyimg">
+        <image src="../../imgs/money.png"></image>
+      </view>
+      <view class="shuru">
+         <input type="text" value=""></input>
+      </view>
+     
+    </view>
+  </view>
+  <view class="end" bindtap="chongzhi">
+    <text>下一步</text>
+  </view>
+</view>

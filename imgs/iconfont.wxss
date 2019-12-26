@@ -1,0 +1,29 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1577266912303'); /* IE9 */
+  src: url('iconfont.eot?t=1577266912303#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAPIAAsAAAAAB+QAAAN6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDHAqDHIJkATYCJAMQCwoABCAFhG0HTBvaBsiuMTZGWs8QQnRdceuKG9nSt9WYUoTvDOLh//f7ts+95/+5896oJxWkehdb3WR14lQSpEaIUDIdT4TE5Nz7eWNQmKEixjSFx+mlGUtGR5bVzrMaK2C3fUI1yMX9LYOgSxZBgrhuqio3N//nWlRb07eVDXBvtCvxbI3Sa4AAsPkZT9qSgISsPs/l9Kb4XfUty2WsyXvwUS/AOKDAxpoUJVogJcipSNeak/zcT6CzIZjqdm5xNbCS7GGBeKeRELAquGRHZWjCsGFuik+Ya+WDTiF8jD4ffyHXKAaVPfbuixwepH8vg7oIzQGBerkAxEVUHAKSeNUYesI0SR4y1em/MXMV0DSF70jcICHNVUzN+cujCJUYssvHwGWkKt8RzygycyQl+AHKVPhCLI1KngM+s21ry9SEXHVTdb3z2v7R2NNsql36mbhp+aY3oMWPVt2w+De49oVxzaJWX7es1zQumXXcklFbvaC19zXYtzdw7U2cfY9NuFUtbmpA1caaeowa67jG+mafpsaypL6BU7mv2V5T/3qHvbAv8ulmtOf60owYOg+dL4/91z0XrBltT7KnTivTzUB0vN/Fhjr9WX/3zsnJo+vkq0uv9z3/p//7dTkI+HzW1X8ov3H26ruj7w7W+TYIItemClgP1/O6L//yIuZKkpM8qTnxWZwBa5BDjvE54XP5bL7x62JKPtBJzEoLOeRYq6bJO9kAOu3E26fgHQoGg5AQJi90BjKA/9c3lIivfqCztAT14l/7jqepi29zTP5LsQm+pf9CmmFm8NWrB6v/I/XAujS0tjtT03kqM5xOc3kKOsfLP5NlxtMSlvnB5YRmPkMxYh1Vs0kme4iB3mUMNdfQOZC3uDeLMhU5in2DDGHKLooJX1BNOSOTfcTAgq8Ymqqi8zhc1+xt99omiwqICTzkeqAGE6PoeplNXFkpSB16RPPaiKsVqKKJwIjQ8HImTzAKdIkJSqcUyZgIRUoMMJcdJuj1BMqUaAXMQtWMyYlhYWLTk0IxMQAbt1AChBHwIE4PSAMjjMSgOWNTeX8lgaSDHkI7BHXZWgJKoWkfihAqfACZZzIOEjzKI4pOkkgMI4JEFGEA5bKAQO8kCUhu7qUlwJhQ6glxWaIwNBKHmkK3txg+4Rbo2DdklKiRMTD6XmOUQjCRe2wUhihLKevCEL3GKAAAAAA=') format('woff2'),
+  url('iconfont.woff?t=1577266912303') format('woff'),
+  url('iconfont.ttf?t=1577266912303') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1577266912303#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-xing-copy:before {
+  content: "\e50c";
+}
+
+.icon-start-copy:before {
+  content: "\e502";
+}
+
+.icon-star-line:before {
+  content: "\e630";
+}
+

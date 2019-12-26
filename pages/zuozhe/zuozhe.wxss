@@ -13,23 +13,37 @@ page {
 }
 .upkuai{
   flex: 1;
+  position: relative;
 }
 .hguan>image{
   width:40rpx;
   height: 40rpx;
   margin-left: 60rpx;
   margin-bottom: -30rpx;
+  position: absolute;
+  top: -12rpx;
+  left: 0rpx;
 }
 .hguan2>image{
+  position: absolute;
+  top: -34rpx;
+  left: 0rpx;
   width: 70rpx;
   height: 70rpx;
   margin-left: 66rpx;
   margin-bottom: -30rpx;
 }
 .shuzi1>image{
-  width: 20rpx;
-  height: 20rpx;
+  width: 40rpx;
+  height: 40rpx;
   margin-left: 75rpx;
+  position: absolute;
+  top:135rpx;
+  left: -11rpx;
+}
+.shuzi1.first>image{
+  top:168rpx;
+  left: 3rpx;
 }
 .headimg>image{
   width:160rpx;

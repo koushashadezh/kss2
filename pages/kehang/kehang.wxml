@@ -6,7 +6,7 @@
       </view>
       <view class="you">
         <span class='title'>{{item.title}}</span>
-        <image class="sl" src="../../imgs/省略号.png"></image>
+        <image class="sl" src="../../imgs/shenglue.png"></image>
         <view class="zz">
           <span>{{item.actor}}</span>
         </view>

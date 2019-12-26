@@ -1,0 +1,84 @@
+<!--pages/shuji/shuji.wxml-->
+<view class="color">
+  <view class="shuji_wrap">
+    <view class="top">
+      <view class="img">
+        <image src="../../imgs/paihang15.png"></image>
+      </view>
+      <view class="hanzi">
+        <text class="title">三体：死神永生</text>
+        <text class="author">作者：刘慈欣</text>
+        <text class="jieshao">刘慈欣创作的系列长篇科幻小说地球往事三部曲的第三部作品...</text>
+        <text class="icon-start-copy iconfont"></text>
+        <text class="icon-start-copy iconfont"></text>
+        <text class="icon-start-copy iconfont"></text>
+        <text class="icon-start-copy iconfont"></text>
+        <text class="icon-start-copy iconfont"></text>
+        <text class="wu">5.0</text>
+      </view>
+    </view>
+    <view class="two" bindtap="showDialogBtn">
+      <view wx:for="{{data}}" wx:key="*this" class="tuwen">
+        <image src="{{item.src}}"></image>
+        <text>{{item.text}}</text>
+      </view>
+    </view>
+    <view class="a">
+      <view class="three">
+        <view class="yi">详情</view>
+        <view class="er">与三体文明的战争使人类第一次看到了宇宙黑暗的真相，地球文明像一个恐惧的孩子，熄灭了寻友的篝火，在暗夜中发抖。自以为历经沧桑，其实刚刚蹒跚学步；自以为悟出了生存竞争的秘密，其实还远没有竞争的资格。</view>
+      </view>
+    </view>
+    <view class="four">
+      <view class="four_one">个人信息</view>
+      <view class="four_two">></view>
+    </view>
+    <view class="four1">
+      <view class="four_one">评论
+        <text class="pl" bindtap="pl">215条评论</text>
+      </view>
+      <view class="four_two">
+        <image src="../../imgs/biji.png"></image>
+      </view>
+    </view>
+    <view class="five">
+      <view class="touxiang">
+        <image src="../../imgs/paihang1.png"></image>
+      </view>
+      <view class="pinglun">
+        <view class="name">你个废物</view>
+        <view class="xinxi">
+          <text>啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦</text>
+        </view>
+        <view class="time">
+          <view class="shijian">12-26 11:04</view>
+          <view class="dianzan">
+            <image src="../../imgs/xin1.png"></image>
+            <text>134    </text>
+            <image src="../../imgs/pinglun.png"></image>
+            <text>89</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="big">
+    <view class="xiao">试看</view>
+    <view class="zhong" >购买</view>
+  </view>
+  <!--弹窗-->
+  <view class="modal-mask" bindtap="hideModal" catchtouchmove="preventTouchMove" wx:if="{{showModal}}"></view>
+  <view class="modal-dialog" wx:if="{{showModal}}">
+    <view class="modal-title">
+      <image src="../../imgs/paihang15.png"></image>
+    </view>
+    <view class="modal-content">
+      <view class="modal-input">
+        已经将这本书加入到个人书架
+      </view>
+    </view>
+    <view class="modal-footer">
+      好的
+    </view>
+  </view>
+</view>

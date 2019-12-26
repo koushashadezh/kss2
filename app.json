@@ -6,7 +6,12 @@
     "pages/my/my",
     "pages/kehang/kehang",
     "pages/zuozhe/zuozhe",
-    "pages/faer/faer"
+    "pages/faer/faer",
+    "pages/shuji/shuji",
+    "pages/shezhi/shezhi",
+    "pages/yue/yue",
+    "pages/chongzhi/chongzhi",
+    "pages/pinglun/pinglun"
   ],
   "window": {
     "backgroundTextStyle": "light",
