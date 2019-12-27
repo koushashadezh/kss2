@@ -23,6 +23,11 @@ Page({
       url: "../../pages/shezhi/shezhi",
     })
   },
+  yue: function () {
+    wx.navigateTo({
+      url: "../../pages/yue/yue",
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

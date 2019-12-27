@@ -129,5 +129,20 @@ Page({
       url: "../../pages/zuozhe/zuozhe",
     })
   },
+  fenlei: function () {
+    wx.navigateTo({
+      url: "../../pages/fenlei/fenlei",
+    })
+  },
+  shuji: function () {
+    wx.navigateTo({
+      url: "../../pages/shuji/shuji",
+    })
+  },
+  search: function () {
+    wx.navigateTo({
+      url: "../../pages/search/search",
+    })
+  },
 
 })

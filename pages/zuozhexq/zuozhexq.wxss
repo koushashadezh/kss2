@@ -1,0 +1,183 @@
+/* pages/zzxx/zzxx.wxss */ 
+@import "../../imgs/iconfont.wxss";
+page {
+  height: 100%;
+  background-color: #21272e;
+}
+.zzxx_wrap{
+  width: 90%;
+  margin: 0 auto;
+}
+.top {
+  text-align: center;
+  padding-top: 20rpx;
+  overflow: hidden;
+}
+
+.top text {
+  color: #fff;
+  font-size: 40rpx;
+}
+
+.top image {
+  width: 40rpx;
+  height: 40rpx;
+  float: right;
+  margin-right: 20rpx;
+}
+
+.touxiang>.img>image {
+  width: 180rpx;
+  height: 180rpx;
+  border-radius: 90rpx;
+}
+
+.touxiang .img {
+  margin-top: 30rpx;
+}
+
+.zi {
+  color: #b5b7c5;
+  font-size: 26rpx;
+}
+
+.ziti {
+  color: #fff;
+  margin-top: 40rpx;
+  font-size: 40rpx;
+}
+
+.text {
+  border-bottom: 1px solid #252930;
+  width: 500rpx;
+  margin-bottom: 90rpx;
+}
+
+.two {
+  display: flex;
+}
+
+.share image {
+  width: 60rpx;
+  height: 60rpx;
+  float: left;
+}
+
+.share {
+  width: 160rpx;
+  height: 60rpx;
+  border: 1px solid #545d66;
+  position: absolute;
+  top: 180rpx;
+  left: 550rpx;
+  border-radius: 5px;
+}
+
+.text1 {
+  color: #9497ab;
+  line-height: 60rpx;
+}
+
+.two {
+  position: relative;
+}
+
+.three {
+  margin: 20px auto;
+  background-color: #2b323b;
+  display: flex;
+  height: 120rpx;
+  border-radius: 10px;
+}
+
+.one text {
+  display: block;
+}
+
+.one {
+  flex: 1;
+  text-align: center;
+  color: #fff;
+  border-right: 1px solid #363c45;
+}
+
+.yi {
+  font-weight: 400;
+  font-size: 38rpx;
+  margin-top: 20rpx;
+}
+
+.er {
+  font-size: 24rpx;
+  color: #b5b7c5;
+}
+.author {
+  color: white;
+}
+
+.all {
+  color: #478ce0;
+  font-size: 24rpx;
+  float: right;
+}
+
+.four>.title {
+  overflow: hidden;
+}
+
+
+.icon-start-copy {
+  color: #fb6894;
+}
+
+.five {
+  display: flex;
+}
+
+.img image {
+  width: 210rpx;
+  height: 333rpx;
+  margin-right: 20rpx;
+}
+
+.hanzi {
+  padding-top: 15px;
+}
+
+.hanzi text {
+  line-height: 45rpx;
+  margin-bottom: 20rpx;
+}
+
+.title {
+  display: block;
+  color: #fff;
+  font-size: 40rpx;
+}
+
+.author1 {
+  display: block;
+  margin-top: 10rpx;
+  color: #478ce0;
+  font-size: 24rpx;
+}
+
+.jieshao {
+  display: block;
+  color: #828d9a;
+  font-size: 30rpx;
+  margin-bottom: 20rpx;
+}
+
+.tuwen image {
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 15rpx;
+}
+.wu{
+  color: #ffce44;
+}
+.five{
+  padding: 40rpx 0rpx;
+  border-bottom: 1px solid #27323b;
+}

@@ -1,1 +1,63 @@
 /* pages/pinglun/pinglun.wxss */
+page {
+  height: 100%;
+  background-color: #21272e;
+}
+.pinglun_wrap{
+  width: 90%;
+  margin: 0 auto;
+}
+.top {
+  text-align: center;
+  padding-top: 20rpx;
+}
+
+.top text {
+  color: #fff;
+  font-size: 40rpx;
+}
+
+.top image {
+  width: 40rpx;
+  height: 40rpx;
+  float: right;
+}
+.touxiang image {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 40rpx;
+  margin-left: 20rpx;
+}
+
+.pinglun {
+  margin: 0 20rpx;
+  border-bottom: 1px solid #2d353f;
+}
+
+.five {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  margin-top: 40rpx;
+}
+
+.xinxi {
+  margin-top: 20rpx;
+  font-size: 24rpx;
+  color: #828d9a;
+}
+
+.dianzan image {
+  width: 30rpx;
+  height: 30rpx;
+  margin-right: 10rpx;
+}
+
+.time {
+  display: flex;
+  justify-content: space-between;
+  color: #828d9a;
+  font-size: 24rpx;
+  margin: 20rpx 0rpx;
+  
+}

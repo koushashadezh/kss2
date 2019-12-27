@@ -1,2 +1,30 @@
 <!--pages/pinglun/pinglun.wxml-->
-<text>pages/pinglun/pinglun.wxml</text>
+<view class="color">
+  <view class="pinglun_wrap">
+    <view class="top">
+      <text>评论</text>
+      <image src="../../imgs/biji.png"></image>
+    </view>
+    <view wx:for="{{data}}" wx:key="*this" class="five">
+      <view class="touxiang">
+        <image src="{{item.url}}"></image>
+      </view>
+      <view class="pinglun">
+        <view class="name">{{item.name}}</view>
+        <view class="xinxi">
+          <text>{{item.xinxi}}</text>
+        </view>
+        <view class="time">
+          <view class="shijian">12-26 11:04</view>
+          <view class="dianzan">
+            <image src="../../imgs/xin1.png"></image>
+            <text>134    </text>
+            <image src="../../imgs/pinglun.png"></image>
+            <text>89</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+</view>

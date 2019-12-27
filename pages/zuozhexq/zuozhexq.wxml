@@ -1,0 +1,55 @@
+<!--pages/zzxx/zzxx.wxml-->
+<view class="color">
+  <view class="zzxx_wrap">
+    <view class="top">
+      <!-- <image src="../../imgs/shezhi.png"></image> -->
+    </view>
+    <view class="two">
+      <view class="touxiang">
+        <view class="img">
+          <image src="../../imgs/paihang3.png"></image>
+        </view>
+      </view>
+      <view class="text">
+        <view class="zi ziti">
+          <text>田小花</text>
+        </view>
+        <view class="zi a">
+          <text>中国.保康</text>
+        </view>
+      </view>
+      <view class="share">
+        <image src="../../imgs/fenxiang.png"></image>
+        <view class="text1">分享</view>
+      </view>
+    </view>
+    <view class="three">
+      <view wx:for="{{shuju}}" wx:key="*this" class="one">
+        <text class="yi">{{item.shuzi}}</text>
+        <text class="er">{{item.text}}</text>
+      </view>
+    </view>
+    <view class="four">
+      <view class="title">
+        <text class="author">代表作</text>
+        <text class="all">总共 <text>3</text>本书</text>
+      </view>
+    </view>
+    <view wx:for="{{jianjie}}" wx:key="*this" class="five">
+      <view class="img">
+        <image src="{{item.url}}"></image>
+      </view>
+      <view class="hanzi">
+        <text class="title">{{item.title}}</text>
+        <text class="icon-start-copy iconfont"></text>
+        <text class="icon-start-copy iconfont"></text>
+        <text class="icon-start-copy iconfont"></text>
+        <text class="icon-start-copy iconfont"></text>
+        <text class="icon-start-copy iconfont"></text>
+        <text class="wu">5.0</text>
+        <text class="jieshao">{{item.jieshao}}</text>
+        <text class="author1">{{item.yuedu}}</text>
+      </view>
+    </view>
+  </view>
+</view>

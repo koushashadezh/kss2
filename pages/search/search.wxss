@@ -1,0 +1,102 @@
+/* pages/search/search.wxss */
+page {
+  height: 100%;
+  background-color: #21272e;
+}
+.search_wrap{
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 40rpx;
+  height: 1100rpx;
+}
+.sousuo {
+  width: 40rpx;
+  height: 40rpx;
+  margin: 20rpx;
+  float: left;
+}
+.ss{
+  display: flex;
+  justify-content: space-between;
+}
+.search {
+  width: 80%;
+  line-height: 80px;
+  background-color: #2d353d;
+  overflow: hidden;
+  border-radius: 40rpx;
+}
+.input {
+  height: 80rpx;
+}
+.quxiao{
+  line-height: 80rpx;
+  color: #646877;
+}
+.author {
+  color: white;
+}
+
+.all {
+  color: #a2a8ba;
+  font-size: 24rpx;
+  float: right;
+}
+
+.ranking>.title {
+  overflow: hidden;
+  margin: 40rpx 0;
+}
+.a {
+  display: flex;
+  justify-content: space-between;
+}
+
+.b {
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.tw>image {
+  width: 205rpx;
+  height: 270rpx;
+}
+
+.tw>text {
+  color: #fff;
+  display: block;
+  font-size: 26rpx;
+  margin-top: 10rpx;
+}
+
+.tw>.text {
+  margin-bottom: 40rpx;
+  color: #a2a8ba;
+  font-size: 23rpx;
+}
+.rmss {
+  color: #fff;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+.rmss image{
+  width: 40rpx;
+  height: 40rpx;
+  float: right;
+}
+.ssbox {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20rpx;
+}
+
+.sscontent {
+  padding: 10rpx 40rpx;
+  border-radius: 30rpx;
+  font-size: 24rpx;
+  margin-right: 30rpx;
+  margin-bottom: 25rpx;
+  background-color: #45485b;
+  color: #fff;
+}

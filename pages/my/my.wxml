@@ -44,7 +44,7 @@
         <image class="next" src="../../imgs/dayu.png"></image>
       </view>
     </view>
-    <view class="every">
+    <view class="every" bindtap="yue">
       <view class="list">
         <text class="listfirst">账户余额</text>
       </view>

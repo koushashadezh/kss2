@@ -11,7 +11,11 @@
     "pages/shezhi/shezhi",
     "pages/yue/yue",
     "pages/chongzhi/chongzhi",
-    "pages/pinglun/pinglun"
+    "pages/pinglun/pinglun",
+    "pages/fenlei/fenlei",
+    "pages/search/search",
+    "pages/gouwuche/gouwuche",
+    "pages/zuozhexq/zuozhexq"
   ],
   "window": {
     "backgroundTextStyle": "light",

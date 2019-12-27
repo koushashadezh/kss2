@@ -1,12 +1,12 @@
 <view class="zhuye">
-  <view class="sousuo">
+  <view class="sousuo" bindtap="search">
     <image class="headerimg" src="../../imgs/sousuo.png"></image>
     <input type="text" value="搜索..." />
   </view>
   <view class="fenlei">
     <view class="fenup">
       <span>分类排行</span>
-      <span class="watch">查看全部></span>
+      <span class="watch" bindtap="fenlei">查看全部></span>
     </view>
     <view class="fencnt">
       <scroll-view class="scroll-view"  scroll-x="true" bindscroll="scroll" style="width: 100%" >
@@ -41,7 +41,7 @@
       <span class="watch">查看全部></span>
     </view>
     <view class="newfabu">
-      <view class="fabu" wx:for="{{fabu}}" wx:key="*this">
+      <view class="fabu" wx:for="{{fabu}}" wx:key="*this" bindtap="shuji">
         <view class="fabuimg">
           <image src="{{item.img}}"></image>
         </view>

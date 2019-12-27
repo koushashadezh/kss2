@@ -22,11 +22,16 @@ Page({
     showModal: false,
 
   },
-  // pl(){
-  //   wx.navigateTo({
-  //     url: '../pinglun/pinglun',
-  //   })
-  // },
+  pl(){
+    wx.navigateTo({
+      url: '../../pages/pinglun/pinglun',
+    })
+  },
+  gouwuche() {
+    wx.navigateTo({
+      url: '../../pages/gouwuche/gouwuche',
+    })
+  },
   /**
    * 弹窗
    */

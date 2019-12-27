@@ -1,7 +1,7 @@
 <!--pages/zuozhe/zuozhe.wxml-->
 <view class="wrap">
   <view class="up">
-    <view class="upkuai">
+    <view class="upkuai" bindtap="zuozhexq">
       <view class="hguan">
         <image src="../../imgs/huangguan1.png "></image>
       </view>

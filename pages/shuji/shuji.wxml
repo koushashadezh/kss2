@@ -64,7 +64,7 @@
   </view>
   <view class="big">
     <view class="xiao">试看</view>
-    <view class="zhong" >购买</view>
+    <view class="zhong" bindtap="gouwuche">购买</view>
   </view>
   <!--弹窗-->
   <view class="modal-mask" bindtap="hideModal" catchtouchmove="preventTouchMove" wx:if="{{showModal}}"></view>

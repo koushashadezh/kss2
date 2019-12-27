@@ -1,0 +1,34 @@
+<!--pages/search/search.wxml-->
+<view class="color">
+  <view class="search_wrap">
+    <view class="ss">
+      <view class="search">
+        <image class="sousuo" src="../../imgs/sousuo.png"></image>
+        <input class="input" placeholder="搜索...."></input>
+      </view>
+      <view class="quxiao">取消</view>
+    </view>
+    <view class="ranking">
+      <view class="title">
+        <text class="author">正在阅读</text>
+        <text class="all">查看全部 ></text>
+      </view>
+      <view class="a b">
+        <view wx:for="{{shuju}}" wx:key="*this" bindtap="xinxi" data-mei="{{item.text}}" class="tw">
+          <image src="{{item.img}}"></image>
+          <text>{{item.text}}</text>
+          <text class="text">{{item.name}}</text>
+        </view>
+      </view>
+    </view>
+    <view class="popular ranking">
+      <view class="rmss">
+        <text>热门搜索</text>
+        <image src="../../imgs/shanchu.png"></image>
+      </view>
+      <view class="ssbox">
+        <view class="sscontent" wx:for="{{content}}" wx:key="key" style="color:{{item.color}}">{{item.title}}</view>
+      </view>
+    </view>
+  </view>
+</view>
